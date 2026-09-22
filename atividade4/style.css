@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555555;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.noticia-principal {
+    background-color: white;
+    padding: 20px;
+}
+
+.noticias {
+    display: grid;
+    gap: 10px;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
