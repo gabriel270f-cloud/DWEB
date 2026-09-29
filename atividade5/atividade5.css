@@ -1,0 +1,62 @@
+div {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Até 420px */
+@media screen and (max-width: 420px) {
+    div {
+        background-color: gray;
+    }
+
+    h2::before {
+        content: "Cinza";
+    }
+}
+
+/* De 421px até 768px */
+@media screen and (min-width: 421px) and (max-width: 768px) {
+    div {
+        background-color: orange;
+    }
+
+    h2::before {
+        content: "Laranja";
+    }
+}
+
+/* De 769px até 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    div {
+        background-color: purple;
+    }
+
+    h2::before {
+        content: "Roxo";
+    }
+}
+
+/* De 1025px até 1920px */
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+    div {
+        background-color: rgb(30, 8, 231);
+    }
+
+    h2::before {
+        content: "Azul";
+    }
+}
+
+/* Maior que 1920px */
+@media screen and (min-width: 1921px) {
+    div {
+        background-color: green;
+    }
+
+    h2::before {
+        content: "Verde";
+    }
+}
